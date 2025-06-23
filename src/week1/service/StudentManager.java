@@ -1,4 +1,6 @@
-package week1;
+package week1.service;
+
+import week1.model.Student;
 
 import java.util.ArrayList;
 

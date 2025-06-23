@@ -1,4 +1,7 @@
-package week1;
+package week1.main;
+
+import week1.model.Student;
+import week1.service.StudentManager;
 
 import java.util.Scanner;
 

@@ -29,5 +29,10 @@ public class Main {
 
         System.out.println("\nВведіть групу для пошуку:");
         manager.printByGroup(scanner.nextLine());
+
+        System.out.println("Введіть ім'я, щоб видалити студента: ");
+        manager.removeByName(scanner.nextLine());
+
+        manager.printAllStudents();
     }
 }

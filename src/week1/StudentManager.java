@@ -31,4 +31,8 @@ public class StudentManager {
             }
         }
     }
+
+    public void removeByName(String name) {
+        students.removeIf(s -> s.getName().equalsIgnoreCase(name));
+    }
 }
